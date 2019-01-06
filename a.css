@@ -1,0 +1,153 @@
+body{
+  background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)),url(back.jpg) ;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: Lato;
+  color: #555;
+
+}
+.container{
+  position: relative;
+  position: absolute;
+  top: 5%;
+  left:10%;
+  height:600px;
+  width: 1000px;
+  box-shadow: 2px 2px 10px black;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+.panel-0{
+  height:600px;
+  width:500px;
+  margin: 0px;
+  padding: 0px;
+  float:left;
+  position:relative;
+}
+
+.panel-1{
+  height: 600px;
+  width:500px;
+  margin: 0px;
+  padding: 0px;
+  float:right;
+  position: relative;
+}
+
+#name-0, #name-1
+{
+  position: absolute;
+  top: 80px;
+  left: 150px;
+  font-size: 40px;
+}
+
+
+#score-0,#score-1
+{
+  position: absolute;
+  top: 180px;
+  left: 180px;
+  font-size: 120px;
+  color: coral;
+}
+
+.control-box
+{
+  position: absolute;
+  bottom: 100px;
+  left: 180px;
+  font-size: 20px;
+  background-color: coral;
+  height: 70px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  width:100px;
+  padding-top: 20px;
+}
+
+.control-label
+{
+  padding: absolute;
+  padding-top: 20px;
+
+
+}
+#current-0,#current-1
+{
+  position: absolute;
+  top: 50%;
+  left:40%;
+  color: white;
+}
+
+.btn-newgame
+{
+  position: absolute;
+  top: 5%;
+  left: 43%;
+  border:none;
+  background-color:transparent;
+  font-size: 20px;
+}
+
+.btn-rolldice
+{
+   position: absolute;
+    bottom:25%;
+    left: 43%;
+    border:none;
+    background-color:transparent;
+    font-size: 20px;
+}
+
+
+.btn-hold
+{
+   position: absolute;
+    bottom:15%;
+    left: 46%;
+    border:none;
+    background-color:transparent;
+    font-size: 20px;
+}
+
+
+button:hover{  color: blue;}
+
+button:focus{ outline: none !important;}
+
+.ion-ios-plus-outline,.ion-ios-loop,.ion-ios-download-outline
+{
+font-size: 30px;
+-webkit-text-stroke: 1.5px coral;
+}
+
+#dice{
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  height: 100px;
+  width: 100px;
+}
+
+.active
+{
+  background-color:#f5f5f0;
+}
+.active .playerName { font-weight: 300; }
+
+.active .playerName::after {
+    content: "\2022";
+    font-size: 47px;
+    position: absolute;
+    color: coral;
+    top: -7px;
+    right: -30px;
+
+}
